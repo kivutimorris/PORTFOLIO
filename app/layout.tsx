@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description:
     'Backend developer building secure web applications, Linux infrastructure, media platforms, and scalable systems using PHP, MariaDB, FFmpeg, and modern web technologies.',
   
-  generator: 'kivuti.app',
+  generator: 'kivuti.vercel.app',
 
   openGraph: {
     title: 'Morris Kivuti — Backend Developer | Linux | PHP | Infrastructure',
