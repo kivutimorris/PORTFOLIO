@@ -2,32 +2,56 @@ import { ArrowUpRight } from 'lucide-react'
 
 const projects = [
   {
-    name: 'Nimbus Analytics',
+    name: 'DrCartoonTV',
     description:
-      'A real-time analytics dashboard handling millions of events per day with sub-second query latency.',
-    tags: ['Next.js', 'TypeScript', 'ClickHouse', 'WebSockets'],
-    year: '2025',
+      'A video streaming platform with an end-to-end upload pipeline, HLS video transcoding, authentication, background workers, and scalable media processing.',
+    tags: [
+      'PHP',
+      'FFmpeg',
+      'MariaDB',
+      'Redis',
+      'Nginx',
+      'Ubuntu',
+    ],
+    year: '2026',
   },
   {
-    name: 'Ledger CLI',
+    name: 'Creator Studio',
     description:
-      'An open-source command-line tool for plain-text accounting, with a plugin system and 4k+ stars.',
-    tags: ['Rust', 'CLI', 'Open Source'],
-    year: '2024',
+      'A creator dashboard for managing video uploads, channels, authentication, and publishing workflows with a modular PHP architecture.',
+    tags: [
+      'PHP',
+      'Google OAuth',
+      'Composer',
+      'REST API',
+      'MySQL',
+    ],
+    year: '2026',
   },
   {
-    name: 'Orbit Design System',
+    name: 'Group4Group',
     description:
-      'A headless, accessible component library powering design consistency across five product teams.',
-    tags: ['React', 'Radix', 'Storybook', 'a11y'],
-    year: '2024',
+      'A marketplace for discovering and managing WhatsApp communities, featuring automated member collection, searchable groups, and scalable database design.',
+    tags: [
+      'PHP',
+      'SQLite',
+      'Playwright',
+      'JavaScript',
+      'Automation',
+    ],
+    year: '2026',
   },
   {
-    name: 'Meridian Edge',
+    name: 'Kivuti Portfolio',
     description:
-      'A globally distributed edge cache reducing origin load by 78% and p99 latency by half.',
-    tags: ['Go', 'Redis', 'Edge', 'Infra'],
-    year: '2023',
+      'A modern developer portfolio built with Next.js and TypeScript, deployed on Vercel with responsive design and performance-first architecture.',
+    tags: [
+      'Next.js',
+      'TypeScript',
+      'Tailwind CSS',
+      'Vercel',
+    ],
+    year: '2026',
   },
 ]
 
