@@ -1,24 +1,24 @@
 const experience = [
   {
-    role: 'Senior Software Engineer',
-    company: 'Vantage Labs',
-    period: '2023 — Present',
+    role: 'Independent Software Developer',
+    company: 'Self-Employed',
+    period: '2024 — Present',
     description:
-      'Lead engineer on the core platform team, driving architecture decisions and mentoring a team of five.',
+      'Building secure backend applications with PHP, Next.js, MariaDB, and Ubuntu Linux. Developing scalable systems for authentication, media processing, REST APIs, and cloud deployment.',
   },
   {
-    role: 'Full-Stack Developer',
-    company: 'Northwind Studio',
-    period: '2020 — 2023',
+    role: 'Voter Registration Clerk',
+    company: 'Independent Electoral and Boundaries Commission (IEBC)',
+    period: 'Mar 2026 — Apr 2026',
     description:
-      'Built and shipped client products end to end, from design systems to production infrastructure.',
+      'Registered voters, verified identity documents, and maintained data accuracy, confidentiality, and compliance with established operational procedures.',
   },
   {
-    role: 'Frontend Developer',
-    company: 'Pixel & Co.',
-    period: '2019 — 2020',
+    role: 'Affiliate Marketing Specialist',
+    company: 'Binance & Paxful',
+    period: '2021 — 2026',
     description:
-      'Crafted accessible, high-performance interfaces for early-stage startups and agencies.',
+      'Managed online marketing campaigns, analyzed performance metrics, and grew digital communities through content and affiliate marketing strategies.',
   },
 ]
 
