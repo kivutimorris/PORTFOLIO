@@ -25,11 +25,11 @@ export const metadata: Metadata = {
     title: 'Morris Kivuti — Backend Developer | Linux | PHP | Infrastructure',
     description:
       'Building secure applications, Linux infrastructure, media platforms, and scalable backend systems.',
-    url: 'https://kivuti.app',
+    url: 'https://kivuti.vercel.app',
     siteName: 'Kivuti Morris',
     images: [
       {
-        url: 'https://kivuti.app/og-image.png',
+        url: 'https://kivuti.vercel.app/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Morris Kivuti — Backend Developer',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     title: 'Morris Kivuti — Backend Developer | Linux | PHP | Infrastructure',
     description:
       'Building secure applications, Linux infrastructure, and scalable backend systems.',
-    images: ['https://kivuti.app/og-image.png'],
+    images: ['https://kivuti.vercel.app/og-image.png'],
   },
 }
 
