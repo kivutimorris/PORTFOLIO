@@ -15,10 +15,37 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Kivuti Morris — Software Developer',
+  title: 'Morris Kivuti — Backend Developer | Linux | PHP | Infrastructure',
   description:
-    'Portfolio of Kivuti Morris, a software and web developer building fast, accessible, and meaningful digital experiences.',
+    'Backend developer building secure web applications, Linux infrastructure, media platforms, and scalable systems using PHP, MariaDB, FFmpeg, and modern web technologies.',
+  
   generator: 'kivuti.app',
+
+  openGraph: {
+    title: 'Morris Kivuti — Backend Developer | Linux | PHP | Infrastructure',
+    description:
+      'Building secure applications, Linux infrastructure, media platforms, and scalable backend systems.',
+    url: 'https://kivuti.app',
+    siteName: 'Kivuti Morris',
+    images: [
+      {
+        url: 'https://kivuti.app/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Morris Kivuti — Backend Developer',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Morris Kivuti — Backend Developer | Linux | PHP | Infrastructure',
+    description:
+      'Building secure applications, Linux infrastructure, and scalable backend systems.',
+    images: ['https://kivuti.app/og-image.png'],
+  },
 }
 
 export const viewport: Viewport = {
