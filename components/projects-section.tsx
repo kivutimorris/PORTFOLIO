@@ -14,6 +14,7 @@ const projects = [
       'Ubuntu',
     ],
     year: '2026',
+    url: 'https://drcartoontv.com',
   },
   {
     name: 'Creator Studio',
@@ -27,6 +28,7 @@ const projects = [
       'MySQL',
     ],
     year: '2026',
+    url: 'https://studio.drcartoontv.com',
   },
   {
     name: 'Group4Group',
@@ -52,6 +54,7 @@ const projects = [
       'Vercel',
     ],
     year: '2026',
+    url: 'https://kivuti.vercel.app',
   },
 ]
 
@@ -68,7 +71,9 @@ export function ProjectsSection() {
             {projects.map((project) => (
               <li key={project.name}>
                 <a
-                  href="#"
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="group flex flex-col gap-4 py-8 transition-colors sm:flex-row sm:items-start sm:justify-between"
                 >
                   <div className="max-w-xl">
