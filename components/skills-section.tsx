@@ -1,22 +1,44 @@
 const skillGroups = [
   {
-    title: 'Frontend',
-    skills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+    title: 'Web Development',
+    skills: [
+      'PHP',
+      'Next.js',
+      'React',
+      'TypeScript',
+      'Tailwind CSS',
+    ],
   },
   {
-    title: 'Backend',
-    skills: ['Node.js', 'Go', 'Rust', 'PostgreSQL', 'Redis'],
+    title: 'Backend Systems',
+    skills: [
+      'REST APIs',
+      'Authentication',
+      'Background Workers',
+      'Redis',
+      'FFmpeg',
+    ],
   },
   {
-    title: 'Infrastructure',
-    skills: ['Vercel', 'AWS', 'Docker', 'CI/CD', 'Edge Functions'],
+    title: 'Databases',
+    skills: [
+      'MariaDB',
+      'MySQL',
+      'SQLite',
+    ],
   },
   {
-    title: 'Practices',
-    skills: ['Accessibility', 'Performance', 'Testing', 'Design Systems'],
+    title: 'DevOps',
+    skills: [
+      'Ubuntu',
+      'Nginx',
+      'Docker',
+      'Vercel',
+      'Git',
+      'GitHub',
+    ],
   },
 ]
-
 export function SkillsSection() {
   return (
     <section id="skills" className="scroll-mt-24 border-t border-border">
